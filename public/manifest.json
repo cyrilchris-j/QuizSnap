@@ -1,0 +1,12 @@
+{
+  "name": "EcoQuest",
+  "short_name": "EcoQuest",
+  "description": "Gamified Environmental Education Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060f0a",
+  "theme_color": "#0a2e1a",
+  "icons": [
+    { "src": "/eco-icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
