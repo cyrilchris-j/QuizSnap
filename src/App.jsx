@@ -5,6 +5,8 @@ import { DataIcon } from './utils/icons';
 import { Sidebar, BottomNav } from './components/Nav';
 import { Toast, BadgePopup, LevelUpModal } from './components/UI';
 import Onboarding, { OnboardingTour } from './pages/Onboarding';
+import InstallPWA from './components/InstallPWA';
+
 import Dashboard from './pages/Dashboard';
 import { LearnPage, ModulePage, LessonPage } from './pages/Learn';
 import Challenges from './pages/Challenges';
@@ -63,6 +65,7 @@ function App() {
 
   return (
     <>
+      <InstallPWA />
       <Toast />
       <BadgePopup />
       <LevelUpModal />
