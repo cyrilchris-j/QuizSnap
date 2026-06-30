@@ -1,12 +1,12 @@
 {
-  "name": "EcoQuest",
-  "short_name": "EcoQuest",
-  "description": "Gamified Environmental Education Platform",
+  "name": "QuizSnap",
+  "short_name": "QuizSnap",
+  "description": "Smart & Interactive Learning Platform",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#060f0a",
-  "theme_color": "#0a2e1a",
+  "background_color": "#120c18",
+  "theme_color": "#120c18",
   "icons": [
-    { "src": "/eco-icon.svg", "sizes": "any", "type": "image/svg+xml" }
+    { "src": "/logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }

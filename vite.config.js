@@ -8,19 +8,19 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'eco-icon.svg'],
+      includeAssets: ['logo.png'],
       manifest: {
-        name: 'EcoQuest',
-        short_name: 'EcoQuest',
-        description: 'Gamified Environmental Education Platform',
-        theme_color: '#0a2e1a',
-        background_color: '#060f0a',
+        name: 'QuizSnap',
+        short_name: 'QuizSnap',
+        description: 'Smart & Interactive Learning Platform',
+        theme_color: '#120c18',
+        background_color: '#120c18',
         display: 'standalone',
         icons: [
           {
-            src: 'eco-icon.svg',
-            sizes: '192x192 512x512',
-            type: 'image/svg+xml',
+            src: 'logo.png',
+            sizes: '512x512',
+            type: 'image/png',
             purpose: 'any maskable'
           }
         ]
