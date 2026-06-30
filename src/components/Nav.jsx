@@ -22,10 +22,10 @@ export const Sidebar = () => {
     <aside className="sidebar fixed left-0 top-0 h-screen w-64 forest-bg border-r border-lime-400/10 flex flex-col z-40 p-4">
       {/* Logo */}
       <div className="flex items-center gap-3 mb-8 px-2">
-        <DataIcon name="globe" size={32} className="text-lime-400 shrink-0" />
+        <img src="/logo.png" alt="QuizSnap" className="w-8 h-8 rounded-lg" />
         <div>
-          <h1 className="font-nunito font-black text-xl text-lime-400 leading-none">EcoQuest</h1>
-          <p className="text-xs text-white/40">Save the Planet. Level Up.</p>
+          <h1 className="font-nunito font-black text-xl text-purple-400 leading-none">QuizSnap</h1>
+          <p className="text-[10px] text-white/60">Smart & Interactive</p>
         </div>
       </div>
 
